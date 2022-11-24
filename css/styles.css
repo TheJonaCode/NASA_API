@@ -32,8 +32,8 @@ body {
 
 .navbar-brand:hover,
 .nav-link:hover {
-    transition-duration: 0.9s;
     opacity: 0.8;
+    transition-duration: 1s;
 }
 
 
@@ -54,14 +54,24 @@ body {
     margin-left: 4%;
 }
 
+.title_APOD h1,
+.title_APOD h2 {
+    color: #f4f6f6;
+    color: #f4f6f6;
+}
+
 .title_APOD h1 {
     font-size: 62px;
-    color: #f4f6f6;
 }
 
 .title_APOD h2 {
     font-size: 58px;
-    color: #f4f6f6;
+}
+
+.title_APOD h1:hover,
+.title_APOD h2:hover {
+    color: #6fffe9;
+    transition-duration: 1s;
 }
 
 .text__highligth {
