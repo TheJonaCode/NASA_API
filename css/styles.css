@@ -1,9 +1,7 @@
 /*BODY*/
 
 body {
-    background: url('../media/bg.png') #0b132b;
-    background-size: 100%;
-    background-position: initial;
+    background-color: #0b132b;
 }
 
 
@@ -42,7 +40,10 @@ body {
 /*VISUAL*/
 
 .visual {
-    height: 500px;
+    height: 600px;
+    background: url('../media/bg.png') #0b132b;
+    background-size: 100%;
+    background-position: initial;
 }
 
 
@@ -145,11 +146,48 @@ body {
 /*CONTENIDO*/
 
 .content {
-    height: 500px;
-    background-color: #f4f6f6;
+    height: 800px;
+    background-color: #0b132b;
+    display: flex;
+    justify-content: center;
 }
 
-.container-sm {
-    height: 100%;
-    background-color: thistle;
+.cont_articles {
+    width: 88%;
+    margin-top: 20px;
+}
+
+.cont_articles h1 {
+    margin-top: 1%;
+}
+
+.cont_articles h1,
+.cont_articles h2,
+.desc__container {
+    color: #f4f6f6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.apot__focus {
+    margin-top: 3%;
+}
+
+.picture {
+    height: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.pic__container {
+    width: 70%;
+    height: 85%;
+    margin-top: 3%;
+    background-color: #000;
+}
+
+.description {
+    margin-top: 2%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
 }
