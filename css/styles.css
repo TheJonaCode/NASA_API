@@ -163,7 +163,8 @@ body {
 
 .cont_articles h1,
 .cont_articles h2,
-.desc__container {
+.desc__container,
+.footer__description {
     color: #f4f6f6;
     font-family: 'Poppins', sans-serif;
 }
@@ -188,6 +189,18 @@ body {
 .description {
     margin-top: 2%;
     height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    height: 100px;
+}
+
+.footer__description {
     display: flex;
     justify-content: center;
 }
