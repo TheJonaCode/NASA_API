@@ -19,6 +19,12 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: fixed;
+}
+
+.menu__scroll {
+    background-color: #0b132b;
+    opacity: 0.9;
 }
 
 .navbar {
@@ -44,6 +50,10 @@ body {
     transition-duration: 1s;
 }
 
+.link__active {
+    color: #6fffe9 !important;
+}
+
 
 /*VISUAL*/
 
@@ -61,7 +71,7 @@ body {
     width: 45%;
     height: 30%;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 22%;
     margin-left: 4%;
 }
 
@@ -93,7 +103,7 @@ body {
     height: 320px;
     background-color: #3a506b;
     position: absolute;
-    margin-top: 6%;
+    margin-top: 13%;
     margin-left: 72%;
     transition: 0.3s ease-in-out;
 }
@@ -134,7 +144,7 @@ body {
     background: rgb(63, 94, 251);
     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     position: absolute;
-    margin-top: 9%;
+    margin-top: 16%;
     margin-left: 64%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -147,9 +157,9 @@ body {
 }
 
 
-/*CONTENIDO*/
+/*APOD*/
 
-.content {
+.apod__content {
     height: 800px;
     background-color: #0b132b;
     display: flex;
@@ -192,9 +202,6 @@ body {
 .apod__img {
     width: 100%;
     height: 100%;
-}
-
-.apod__img:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -203,6 +210,41 @@ body {
     height: 150px;
     display: flex;
     justify-content: center;
+}
+
+.desc__container {
+    text-align: justify;
+}
+
+
+/*ABOUT*/
+
+.about {
+    height: 400px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #f4f6f6;
+    display: flex;
+    justify-content: center;
+}
+
+.about h1 {
+    color: #0b132b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.about__text {
+    width: 88%;
+    margin-top: 40px;
+}
+
+.link__apod {
+    color: #3a506b;
+    font-weight: bold;
 }
 
 

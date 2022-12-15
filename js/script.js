@@ -6,6 +6,43 @@ const apod__image = document.querySelector('.apod__img');
 $(document).ready(function() {
     //Starting AOS Library
     AOS.init();
+
+    //NAVBAR SCROLL MENU
+    var tohome = $('#pageHome').offset().top,
+        toabout = $('#pageAbout').offset().top;
+
+    $('#myhome').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: tohome - 200
+        }, 400);
+        console.log('entre a ' + tohome);
+    });
+
+    $('#myabout').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: toabout - 100
+        }, 500);
+        console.log('entre a ' + toabout);
+    });
+
+    //SCROLL ACTIVE EFFECT
+    const menu = document.querySelector(".div__container");
+    const li_home = document.querySelector('#myhome');
+    const li_about = document.querySelector('#myabout');
+
+    window.addEventListener('scroll', function() {
+        menu.classList.toggle('menu__scroll', window.scrollY > 500)
+    });
+
+    window.addEventListener('scroll', function() {
+        li_home.classList.toggle('link__active', window.scrollY > -10 && window.scrollY < 600)
+    });
+
+    window.addEventListener('scroll', function() {
+        li_about.classList.toggle('link__active', window.scrollY > 1200 && window.scrollY < 1600)
+    });
 });
 
 //Get API
