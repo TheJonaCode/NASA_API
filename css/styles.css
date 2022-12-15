@@ -1,3 +1,11 @@
+/*GLOBAL*/
+
+.text__highligth {
+    color: #6fffe9;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 /*BODY*/
 
 body {
@@ -75,10 +83,6 @@ body {
 .title_APOD h2:hover {
     color: #6fffe9;
     transition-duration: 1s;
-}
-
-.text__highligth {
-    color: #6fffe9;
 }
 
 
@@ -162,7 +166,6 @@ body {
 }
 
 .cont_articles h1,
-.cont_articles h2,
 .desc__container,
 .footer__description {
     color: #f4f6f6;
@@ -184,6 +187,15 @@ body {
     height: 85%;
     margin-top: 3%;
     background-color: #000;
+}
+
+.apod__img {
+    width: 100%;
+    height: 100%;
+}
+
+.apod__img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .description {
