@@ -41,7 +41,7 @@ $(document).ready(function() {
     });
 
     window.addEventListener('scroll', function() {
-        li_about.classList.toggle('link__active', window.scrollY > 1200 && window.scrollY < 1600)
+        li_about.classList.toggle('link__active', window.scrollY > 1280 && window.scrollY < 1800)
     });
 });
 
