@@ -196,6 +196,34 @@
  .desc__container {
      text-align: justify;
  }
+ /*SEARCH*/
+ 
+ .apot__query {
+     height: 150px;
+     margin-top: 80px;
+     margin-bottom: 20px;
+ }
+ 
+ .apot__query p {
+     font-family: 'Poppins', sans-serif;
+     color: #6fffe9;
+     justify-content: center;
+     font-size: 28px;
+ }
+ 
+ .form__search {
+     display: flex;
+     justify-content: start;
+ }
+ 
+ .form__search input {
+     width: 25%;
+ }
+ 
+ .form__search button {
+     margin-left: 2%;
+ }
+ /*ABOUT*/
  
  .about {
      height: 500px;
@@ -228,6 +256,7 @@
      color: #3a506b;
      font-weight: bold;
  }
+ /*FOOTER*/
  
  .footer {
      height: 100px;
